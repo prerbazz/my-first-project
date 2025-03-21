@@ -1,0 +1,313 @@
+Fork-and-Pull Request Workflow in Git/GitHub
+Git Branching and Merge Conflict Resolution
+Static Website with Docker and Nginx
+Flask API Containerized & Deployed using Kubernetes
+CI/CD Pipeline with Jenkins
+GitHub Actions for Continuous Deployment
+GitHub Repository with Version Control
+
+---
+
+9) Fork-and-Pull Request Workflow in Git/GitHub
+
+Aim
+
+To demonstrate how to collaborate on a GitHub project using the fork-and-pull request workflow.
+
+Requirements
+
+A GitHub account
+
+Git installed on a local machine
+
+An existing public repository to fork
+
+
+Procedure
+
+1. Fork a Repository: Go to GitHub, find a public repository, and click "Fork" to create a copy under your account.
+
+
+2. Clone the Forked Repository: Run git clone <forked-repo-URL> in the terminal to download the repository.
+
+
+3. Create a New Branch: Use git checkout -b feature-branch to create and switch to a new branch.
+
+
+4. Make Changes: Modify files or add new features (e.g., update README.md).
+
+
+5. Commit and Push Changes: Use git add ., git commit -m "Added feature", and git push origin feature-branch.
+
+
+6. Create a Pull Request (PR): Go to GitHub, navigate to your fork, and click "Compare & pull request" to merge changes into the main repository.
+
+
+7. Review and Respond to Feedback: Review comments, make additional commits if required, and push updates.
+
+
+8. Merge PR: Once approved, merge it into the main branch.
+
+
+
+Result
+
+Successful collaboration using the fork-and-pull workflow on GitHub.
+
+
+---
+
+10) Git Branching and Merge Conflict Resolution
+
+Aim
+
+To demonstrate how to work with Git branches and resolve merge conflicts when collaborating.
+
+Requirements
+
+A shared GitHub repository
+
+Git installed locally
+
+
+Procedure
+
+1. Clone the Repository: git clone <repo-URL>
+
+
+2. Create a New Branch: git checkout -b feature-branch
+
+
+3. Make Changes and Commit: Modify a file, then use git add ., git commit -m "Updated feature".
+
+
+4. Push Changes: git push origin feature-branch
+
+
+5. Pull Latest Changes: Switch to main (git checkout main) and pull the latest updates (git pull origin main).
+
+
+6. Merge Main into Feature Branch: git checkout feature-branch and git merge main.
+
+
+7. Resolve Conflicts (if any): Edit conflicting files manually, then use git add . and git commit -m "Resolved conflicts".
+
+
+8. Push Resolved Changes: git push origin feature-branch.
+
+
+9. Create a Pull Request: Open a PR on GitHub.
+
+
+
+Result
+
+Successfully resolved merge conflicts and merged changes into the main branch.
+
+
+---
+
+11) Static Website with Docker and Nginx
+
+Aim
+
+To create and containerize a static website using Docker and serve it using Nginx.
+
+Requirements
+
+Docker installed
+
+A simple HTML file
+
+
+Procedure
+
+1. Create an index.html file with basic content.
+
+
+2. Write a Dockerfile with Nginx as the web server:
+
+FROM nginx:alpine  
+COPY index.html /usr/share/nginx/html/index.html
+
+
+3. Build the Docker Image: docker build -t my-static-site .
+
+
+4. Run the Container: docker run -d -p 8080:80 my-static-site
+
+
+5. Access the Website: Open http://localhost:8080 in a browser.
+
+
+
+Result
+
+A static website is successfully containerized and served using Docker.
+
+
+---
+
+12) Flask API Containerized & Deployed using Kubernetes
+
+Aim
+
+To create a simple Flask API, containerize it, and deploy it using Kubernetes.
+
+Requirements
+
+Python & Flask
+
+Docker
+
+Kubernetes (Minikube or cloud platform)
+
+
+Procedure
+
+1. Create a Flask API (app.py) with a basic endpoint.
+
+
+2. Write a Dockerfile to containerize the app.
+
+
+3. Build and Push the Image: docker build -t my-flask-api ., then push to Docker Hub.
+
+
+4. Write Kubernetes YAML files for Deployment & Service.
+
+
+5. Apply the YAML Manifests: kubectl apply -f deployment.yaml -f service.yaml.
+
+
+6. Access the API using NodePort.
+
+
+
+Result
+
+A Flask API is successfully deployed using Kubernetes.
+
+
+---
+
+13) CI/CD Pipeline with Jenkins
+
+Aim
+
+To automate the building, testing, and deployment of a containerized application using Jenkins.
+
+Requirements
+
+Jenkins installed
+
+Docker installed
+
+A GitHub repository
+
+
+Procedure
+
+1. Set up Jenkins on a local machine or server.
+
+
+2. Write a Dockerfile for the application.
+
+
+3. Create a Jenkinsfile defining build and deployment steps.
+
+
+4. Configure Jenkins to trigger builds on GitHub commits.
+
+
+5. Run a Jenkins pipeline to build and deploy the container.
+
+
+
+Result
+
+CI/CD pipeline successfully automates the deployment process.
+
+
+---
+
+14) GitHub Actions for Continuous Deployment
+
+Aim
+
+To implement continuous deployment using GitHub Actions for a Dockerized application.
+
+Requirements
+
+GitHub repository
+
+Docker Hub account
+
+
+Procedure
+
+1. Push a Dockerized application to GitHub.
+
+
+2. Create a GitHub Actions workflow (.github/workflows/main.yml).
+
+
+3. Define build and push steps in the workflow.
+
+
+4. Automate deployment to a cloud service.
+
+
+5. Test by pushing new changes and verifying auto-deployment.
+
+
+
+Result
+
+The application deploys automatically via GitHub Actions.
+
+
+---
+
+15) GitHub Repository with Version Control
+
+Aim
+
+To manage a team project using GitHub and version control best practices.
+
+Requirements
+
+A GitHub repository
+
+Git installed locally
+
+
+Procedure
+
+1. Set up a repository and invite collaborators.
+
+
+2. Create separate branches for individual modules.
+
+
+3. Make and commit changes in respective branches.
+
+
+4. Submit pull requests and request reviews.
+
+
+5. Resolve conflicts if any.
+
+
+6. Merge branches after approval.
+
+
+
+Result
+
+A team project is successfully managed using GitHub.
+
+
+---
+
+Each of these experiments provides hands-on experience with Git, Docker, Kubernetes, CI/CD, and version control. Let me know if you need further details!
