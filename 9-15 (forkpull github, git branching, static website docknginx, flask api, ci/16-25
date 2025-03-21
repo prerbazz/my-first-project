@@ -1,0 +1,186 @@
+16 python flask-docker, 
+docker hub-push pull imgs, 
+multicontainer kubernetes,
+ci/cd pipeline github
+version control- github
+cloning rep - github
+commit push - github
+pulling lates changes - github
+new git branch - github
+forking rep - github 
+
+Experiment 16: Containerizing a Python Flask Application Using Docker
+AIM:
+To develop and containerize a Flask-based To-Do List application using Docker.
+
+Software Used:
+Python, Flask, Docker
+Procedure:
+Create a Flask application with basic API functionality.
+Write a Dockerfile to containerize the application.
+Build the Docker image and run a Docker container.
+Test the application by accessing it in a browser or API tool.
+Submit the Dockerfile and testing screenshots.
+Result:
+The Flask-based To-Do app was successfully containerized and deployed using Docker
+
+
+
+
+Experiment 17: Push and Pull Docker Images Using Docker Hub
+AIM:
+To push a Docker image to Docker Hub and pull it on another machine.
+
+Software Used:
+Docker Hub, Docker CLI
+Procedure:
+Login to Docker Hub and authenticate.
+Tag and push the Docker image to a Docker Hub repository.
+On another system, pull the Docker image from Docker Hub.
+Run the pulled image as a Docker container.
+Submit Docker commands and screenshots for verification.
+Result:
+A Docker image was successfully pushed to and pulled from Docker Hub.
+
+
+
+
+Experiment 18: Deploying a Multi-Container Application Using Kubernetes
+AIM:
+To deploy a multi-container application (frontend, backend, and database) using Kubernetes.
+
+Software Used:
+Docker, Kubernetes
+Procedure:
+Create a Docker image for each service (Frontend, Backend, Database).
+Write Kubernetes deployment YAML files to manage the services.
+Deploy the multi-container application using Kubernetes.
+Monitor the Pods and Services using Kubernetes commands.
+Submit the Kubernetes YAML files and deployment screenshots.
+Result:
+A multi-container application was successfully deployed using Kubernetes.
+
+
+
+Experiment 19: Creating a CI/CD Pipeline Using GitHub Actions
+AIM:
+To set up an automated CI/CD pipeline using GitHub Actions for a containerized application.
+
+Software Used:
+GitHub Actions, Docker
+Procedure:
+Create a GitHub repository and push the application code.
+Define a GitHub Actions workflow to automate build, test, and deployment.
+Configure steps to build a Docker image, test it, and push to a registry.
+Deploy the application to a cloud platform (AWS, Heroku, or Kubernetes).
+Submit the workflow configuration and deployment link.
+Result:
+A CI/CD pipeline was successfully implemented using GitHub Actions.
+
+
+
+
+Experiment 20: Implementing Version Control Using GitHub
+AIM:
+To demonstrate GitHub-based version control for a team project.
+
+Software Used:
+Git & GitHub
+Procedure:
+Create a GitHub repository for the project.
+Set up branches for different modules.
+Merge changes using pull requests after code reviews.
+Resolve merge conflicts if any arise.
+Submit the GitHub repository link and documentation of workflow.
+Result:
+Version control was successfully implemented using Git & GitHub.
+
+
+
+
+Experiment 21: Cloning an Existing GitHub Repository and Making Changes
+AIM:
+To clone a GitHub repository, make changes, and push updates.
+
+Software Used:
+Git & GitHub
+Procedure:
+Clone an existing public or personal GitHub repository.
+Open the project and modify a file (e.g., README.md or code file).
+Stage, commit, and push the changes back to GitHub.
+Verify that the changes appear in the GitHub repository.
+Submit the GitHub repository link and commit logs.
+Result:
+The GitHub repository was successfully cloned, modified, and updated.
+
+
+
+
+Experiment 22: Committing and Pushing Changes in GitHub
+AIM:
+To demonstrate the process of committing and pushing changes to a GitHub repository.
+
+Software Used:
+Git & GitHub
+Procedure:
+Clone a GitHub repository to the local machine.
+Modify a file (e.g., add new content to README.md).
+Stage the changes and commit with a meaningful message.
+Push the committed changes to GitHub.
+Submit the GitHub repository link and commit logs.
+Result:
+Changes were successfully committed and pushed to GitHub.
+
+
+
+
+Experiment 23: Pulling the Latest Changes from a GitHub Repository
+AIM:
+To demonstrate how to pull updates from a remote GitHub repository.
+
+Software Used:
+Git & GitHub
+Procedure:
+Clone a GitHub repository and make some local changes.
+A collaborator modifies and pushes new changes to the repository.
+Pull the latest updates from GitHub to synchronize the local version.
+Verify that the changes appear locally.
+Submit the GitHub repository link and screenshots of changes.
+Result:
+The latest changes were successfully pulled from GitHub to local machine.
+
+
+
+
+Experiment 24: Creating a New Git Branch and Merging It
+AIM:
+To demonstrate the process of creating a new branch, making changes, and merging it into the main branch.
+
+Software Used:
+Git & GitHub
+Procedure:
+Create a new feature branch in a GitHub repository.
+Modify or add a new feature (e.g., a login function in a Python file).
+Commit the changes and push the branch to GitHub.
+Create a pull request to merge the feature branch into the main branch.
+Submit the GitHub repository link and pull request details.
+Result:
+A new Git branch was successfully created, modified, and merged into the main branch.
+
+
+
+
+Experiment 25: Forking a Repository and Implementing a New Feature
+AIM:
+To demonstrate forking a repository, implementing changes, and submitting a pull request.
+
+Software Used:
+Git & GitHub
+Procedure:
+Fork an existing GitHub repository (public or private).
+Clone the forked repository to a local machine.
+Create a new branch and add a new feature or modification.
+Push the changes to your forked repository.
+Submit a pull request to the original repository for review.
+Result:
+A repository was forked, modified, and a pull request was successfully submitted.
