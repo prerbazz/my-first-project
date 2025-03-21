@@ -1,0 +1,341 @@
+kanban tasks, bus ticket figma, ecommerce figma, scrum sprint jira, library moscow jira, jira + confl, task mngmt moscow kano, online learning moscow kano
+
+
+
+Experiment 1: Create a Kanban Board to Visualize Tasks
+AIM:
+To create a Kanban Board to visualize and manage tasks efficiently using Jira or Trello.
+
+Software Used:
+Jira or Trello
+Procedure:
+Create a New Kanban Board:
+
+Open Jira or Trello.
+Select “Create Board” and choose Kanban as the board type.
+Name the board (e.g., "Task Management Board").
+Set Up Columns:
+
+Create three columns: To Do, In Progress, Done.
+Add Sample Tasks:
+
+Add at least five sample tasks, such as:
+Task 1: "Write project proposal" (To Do)
+Task 2: "Develop login functionality" (To Do)
+Task 3: "Review code" (In Progress)
+Task 4: "Fix bugs" (In Progress)
+Task 5: "Deploy application" (Done)
+Move Tasks Across Columns:
+
+Drag and drop tasks from To Do → In Progress → Done to simulate workflow progress.
+Save and Capture the Board:
+
+Take a screenshot of the final Kanban board.
+Dashboard Diagram:
+Below is a simplified representation of the Kanban Board:
+
+To Do	In Progress	Done
+Write project proposal	Review code	Deploy application
+Develop login feature	Fix bugs	
+Result:
+A Kanban Board was successfully created using Jira/Trello, helping visualize task workflow efficiently.
+
+Experiment 2: Sketch a Simple Prototype of a Bus Ticket Booking System using Figma
+AIM:
+To design a simple prototype of a Bus Ticket Booking System using the Figma tool.
+
+Software Used:
+Figma (Online UI/UX Design Tool)
+Procedure:
+Open Figma
+
+Sign in to Figma or install the Figma desktop app.
+Click on New Design File to start a new project.
+Create Wireframe for the Bus Ticket Booking System
+
+Use the Frame Tool (F) to create different screens for:
+Home Page (Search for Buses)
+Bus List Page (Available buses with details)
+Seat Selection Page
+Payment Page
+Booking Confirmation Page
+Design the Home Page:
+
+Add a Search Bar (for entering destination & date).
+Create a Search Button to fetch available buses.
+Design the Bus List Page:
+
+Display bus details (name, departure time, price, available seats).
+Add a "Book Now" button for each bus.
+Seat Selection Page:
+
+Show a bus seat layout.
+Allow users to select seats by clicking on them.
+Add a Continue button to proceed to payment.
+Payment Page:
+
+Add fields for Card Payment / UPI / Wallet.
+Include a "Pay Now" button.
+Booking Confirmation Page:
+
+Show ticket details and booking confirmation message.
+Add an option to Download Ticket / Email Receipt.
+Prototype Interactions:
+
+Use Figma’s Prototyping Tool to link pages.
+Connect buttons to navigate between different pages.
+Preview and Save the Prototype:
+
+Click on Present Mode to test the prototype.
+Take a screenshot of the final design.
+Dashboard Diagram (Simple Representation):
+css
+Copy code
+[ Home Page ] → [ Bus List Page ] → [ Seat Selection ] → [ Payment ] → [ Confirmation ]
+Result:
+A simple prototype of a Bus Ticket Booking System was successfully created using Figma, demonstrating the user journey from searching buses to booking confirmation.
+
+Let me know if you need another experiment!
+
+
+
+
+
+
+You said:
+Need third
+ChatGPT said:
+Experiment 3: Prototype for an E-Commerce Mobile App using Figma
+AIM:
+To create a prototype for an E-Commerce Mobile App using Figma to resolve stakeholder conflicts on UI design.
+
+Software Used:
+Figma (UI/UX Design Tool)
+Procedure:
+Open Figma
+
+Sign in to Figma or open the desktop app.
+Click on New Design File to create a new project.
+Create Wireframes for the E-Commerce App
+
+Design the key screens:
+Login Page
+Home Page (Product Listings)
+Product Details Page
+Cart Page
+Checkout & Payment Page
+Order Confirmation Page
+Design the Login Page:
+
+Add fields for Username/Email and Password.
+Include a Login Button and a Sign-Up Option.
+Design the Home Page:
+
+Add a Search Bar to find products.
+Display Product Categories (Electronics, Fashion, etc.).
+Show a Grid/List of Featured Products with images, prices, and names.
+Design the Product Details Page:
+
+Display product image, price, description, and reviews.
+Add an "Add to Cart" button.
+Design the Cart Page:
+
+Show the selected products with prices and quantity options.
+Include a "Proceed to Checkout" button.
+Checkout & Payment Page:
+
+Add fields for Shipping Address, Payment Options (Credit Card, UPI, COD).
+Include a "Place Order" button.
+Order Confirmation Page:
+
+Show Order ID, Estimated Delivery Date, and Payment Details.
+Add an option for "Continue Shopping".
+Prototype Interactions:
+
+Use Figma’s Prototyping Tool to link pages and buttons for navigation.
+Preview and Save the Prototype:
+
+Click on Present Mode to test the prototype.
+Take screenshots of the UI and flow.
+Dashboard Diagram (Simple Representation):
+css
+Copy code
+[ Login ] → [ Home (Product Listings) ] → [ Product Details ] → [ Cart ] → [ Checkout ] → [ Order Confirmation ]
+Result:
+A prototype for an E-Commerce Mobile App was successfully created in Figma, helping stakeholders visualize and approve the UI design.
+
+Let me know if you need another experiment!
+
+Experiment 4: Create a Scrum Project in Jira
+AIM:
+To set up a Scrum Project in Jira and demonstrate backlog creation, sprint planning, and workflow management.
+
+Software Used:
+Jira (Atlassian)
+Procedure:
+Create a New Scrum Project:
+
+Log in to Jira → Click Create Project → Select Scrum Software Development.
+Name the project (e.g., "WebApp Development").
+Add Backlog Items:
+
+Go to the Backlog section.
+Add at least 5 user stories/tasks (e.g., “Create user registration page,” “Develop API for login”).
+Prioritize the Backlog:
+
+Arrange tasks based on priority (High, Medium, Low).
+Create a Sprint:
+
+Click Create Sprint → Move high-priority tasks into the sprint.
+Set the sprint duration to 1 week and start the sprint.
+Monitor and Move Tasks:
+
+Move tasks from To Do → In Progress → Done as work progresses.
+Capture Screenshots:
+
+Take screenshots of the Sprint Board at the start and end.
+Dashboard Diagram:
+css
+Copy code
+[ Backlog ] → [ Sprint Planning ] → [ To Do ] → [ In Progress ] → [ Done ]
+Result:
+A Scrum Project was successfully created in Jira, demonstrating backlog creation, sprint planning, and progress tracking.
+
+Experiment 5: Categorizing Requirements using MoSCoW Method (Library Management System)
+AIM:
+To categorize requirements of a Library Management System using the MoSCoW Method in Google Sheets/Excel.
+
+Software Used:
+Google Sheets / Excel
+Procedure:
+List the Requirements:
+
+Identify key system features (e.g., Book Search, Online Reservation, Chatbot Support).
+Categorize Based on MoSCoW Model:
+
+Must-Have: Essential features (Book Search, Borrowing System).
+Should-Have: Important but not critical (QR Code Scanning, Email Notifications).
+Could-Have: Nice-to-have (User Reviews, Chatbot Support).
+Won’t-Have: Features not planned for now (Multi-language Support).
+Justify Each Categorization:
+
+Consider impact on users, feasibility, and resource constraints.
+Submit the Categorized List in Google Sheets/Excel.
+
+Dashboard Diagram (Sample Table):
+Feature	MoSCoW Category	Justification (Impact & Feasibility)
+Book Search	Must-Have	Core functionality for users
+QR Code Scanning	Should-Have	Improves efficiency
+Multi-language Support	Won’t-Have	Not required in Phase 1
+Result:
+Library Management System requirements were categorized successfully using the MoSCoW Method in Google Sheets/Excel.
+
+Experiment 6: Link Jira Tasks with Confluence for Library Management System
+AIM:
+To integrate Jira with Confluence for streamlined project tracking of a Library Management System.
+
+Software Used:
+Jira & Confluence (Atlassian)
+Procedure:
+Create a New Page in Confluence:
+
+Open Confluence → Click Create Page → Title it "Library Management System Overview".
+Embed Jira Issues:
+
+Click Insert → Choose Jira Macro.
+Select 5 Jira tasks (e.g., "Develop book search," "Create user login page").
+Display their status (To Do, In Progress, Done).
+Add a Progress Bar:
+
+Use Confluence's Progress Bar Macro to visualize task completion.
+Save and Submit a Screenshot of the Confluence Page.
+
+Dashboard Diagram:
+css
+Copy code
+[ Jira Tasks ] → [ Confluence Page ] → [ Progress Tracking ]
+Result:
+Jira tasks were successfully linked to Confluence, improving project tracking and collaboration.
+
+Experiment 7: Prioritizing Task Management System Features using MoSCoW & Kano Models
+AIM:
+To prioritize features of a Task Management System using MoSCoW and Kano models in Jira.
+
+Software Used:
+Jira
+Procedure:
+List Features of the Task Management System:
+
+User Login, Task Creation, Prioritization, Progress Tracking.
+Apply MoSCoW Prioritization:
+
+Must-Have: User Login, Task Assignment.
+Should-Have: Task Prioritization.
+Could-Have: Reporting Features.
+Won’t-Have: AI-Based Task Suggestions (not feasible now).
+Apply Kano Model:
+
+Basic Needs: User Login, Task Tracking.
+Performance Needs: Deadlines & Notifications.
+Excitement Factors: AI-Powered Recommendations.
+Document Prioritization in Jira & Take Screenshots.
+
+Dashboard Diagram:
+css
+Copy code
+[ Features ] → [ MoSCoW Prioritization ] + [ Kano Model ] → [ Task Priorities in Jira ]
+Result:
+Task Management System features were prioritized using MoSCoW & Kano models in Jira.
+
+Experiment 8: Prioritizing Online Learning Platform Features using MoSCoW & Kano Models
+AIM:
+To categorize requirements of an Online Learning Platform using MoSCoW and Kano models in Jira.
+
+Software Used:
+Jira
+Procedure:
+List Platform Functionalities:
+
+Course Enrollment, Video Streaming, Quizzes, Discussion Forums, Certificate Generation.
+Apply MoSCoW Prioritization:
+
+Must-Have: Course Enrollment, Video Lectures.
+Should-Have: Quizzes, Progress Tracking.
+Could-Have: Peer Discussions.
+Won’t-Have: AI-Based Learning Suggestions (not feasible now).
+Apply Kano Model:
+
+Basic Needs: Course Enrollment, Video Streaming.
+Performance Needs: Quizzes, Progress Tracking.
+Excitement Factors: Personalized Learning Paths.
+Document Prioritization in Jira & Take Screenshots.
+
+Dashboard Diagram:
+css
+Copy code
+[ Features ] → [ MoSCoW Prioritization ] + [ Kano Model ] → [ Task Priorities in Jira ]
+Result:
+Online Learning Platform requirements were successfully prioritized using MoSCoW & Kano models in Jira.
+
+Experiment 9: Collaborating on GitHub using Fork-and-Pull Workflow
+AIM:
+To demonstrate GitHub collaboration using the fork-and-pull request workflow.
+
+Software Used:
+Git & GitHub
+Procedure:
+Fork an Existing GitHub Repository.
+Clone the Forked Repository to Local Machine.
+Create a New Branch for Feature Development.
+Make Changes (e.g., Add a New Function).
+Commit and Push the Changes.
+Create a Pull Request to Merge into the Main Repository.
+Submit the Pull Request Link.
+Dashboard Diagram:
+css
+Copy code
+[ Fork Repo ] → [ Clone Locally ] → [ Make Changes ] → [ Pull Request ] → [ Merge ]
+Result:
+A collaborative project was successfully managed on GitHub using the fork-and-pull request workflow.
+
+Let me know if you need more!
